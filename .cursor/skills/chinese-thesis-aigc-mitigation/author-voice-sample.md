@@ -2,7 +2,7 @@
 
 ## 与 `SKILL.md` 的关系（重要）
 
-五篇 `skill参考论文` 原文中，部分课程作业带有**口语化连接**或 **pre 讲稿体**。使用本 skill 时，Agent 须以 **`SKILL.md`「语体底线：书面化、严谨性优先」** 为准：**论文学输出应书面、严谨**；参考文只借**结构与材料组织**，不把「口水话」当模仿目标。
+五篇 `skill_reference_papers` 原文中，部分课程作业带有**口语化连接**或 **pre 讲稿体**。使用本 skill 时，Agent 须以 **`SKILL.md`「语体底线：书面化、严谨性优先」** 为准：**论文学输出应书面、严谨**；参考文只借**结构与材料组织**，不把「口水话」当模仿目标。
 
 **同一稿不要连跑两轮「全文降 AIGC」**：见 `SKILL.md` 章节「**同一稿件多次套用本 skill 的风险**」——第二轮易叠套话、反升 AI 率；二轮须有**新材料**或只做**局部**改红字。
 
@@ -13,17 +13,17 @@
 | 文件 | 内容 | 何时读 |
 |------|------|--------|
 | **本文** | 来源索引 + 可借鉴维度 + 模仿禁区 | 每次改写前先扫一遍 |
-| [`author-voice-extended.md`](author-voice-extended.md) | **`skill参考论文/` 五篇 docx 对应全文**（合并为单文件，便于通读） | 需对照原文结构、分点与案例密度时精读 |
-| `skill参考论文/extracted_*.txt` | 与 docx 一一对应的**机器抽取全文**（与 extended 同源） | 在 IDE 里检索某句、某词时用 txt 更快 |
+| [`author-voice-extended.md`](author-voice-extended.md) | **`skill_reference_papers/` 五篇 docx 对应全文**（合并为单文件，便于通读） | 需对照原文结构、分点与案例密度时精读 |
+| `skill_reference_papers/extracted_*.txt` | 与 docx 一一对应的**机器抽取全文**（与 extended 同源） | 在 IDE 里检索某句、某词时用 txt 更快 |
 
-**重建 `author-voice-extended.md`**（仅当 `skill参考论文` 下 docx 有更新时）：
+**重建 `author-voice-extended.md`**（仅当 `skill_reference_papers` 下 docx 有更新时）：
 
-1. `python .cursor/skills/chinese-thesis-aigc-mitigation/scripts/extract_skill_docx.py`（刷新 `skill参考论文/extracted_*.txt`）  
+1. `python .cursor/skills/chinese-thesis-aigc-mitigation/scripts/extract_skill_docx.py`（刷新 `skill_reference_papers/extracted_*.txt`）  
 2. `python .cursor/skills/chinese-thesis-aigc-mitigation/scripts/build_author_voice_extended.py`（合并进 `author-voice-extended.md`）
 
 ---
 
-## 原文来源索引（`skill参考论文/`）
+## 原文来源索引（`skill_reference_papers/`）
 
 - `期末论文.docx` → 设计类论述：**问题—案例（首钢大跳台）—技术路径—多学科条件**，可学**长句因果链与工科案例嵌套**；落笔时改为书面衔接（「据此」「可见」「上述结果表明」等）。  
 - `长文终稿.docx` → 史论：**设问引入—史料—（1）（2）机制归纳—分派观点—辩证收束**；可学**证据密度与层次**；避免照搬口语反问密度过高的段落结构到不宜体裁。  

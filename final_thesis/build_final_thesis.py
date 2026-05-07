@@ -18,7 +18,7 @@ from docx.oxml.ns import qn
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = Path(__file__).resolve().parent
-DRAWINGS = ROOT / "图纸"
+DRAWINGS = ROOT / "drawings"
 MD_NAME = "彭州市水街茶咖啡厅室内设计_李青桐.md"
 DOCX_NAME = "彭州市水街茶咖啡厅室内设计_李青桐.docx"
 PDF_NAME = "彭州市水街茶咖啡厅室内设计_李青桐.pdf"
@@ -590,7 +590,7 @@ def try_docx_to_pdf(docx_path: Path, pdf_path: Path) -> bool:
 
 def main() -> None:
     if not DRAWINGS.is_dir():
-        sys.exit("missing 图纸 folder")
+        sys.exit("missing drawings folder")
 
     body = thesis_body_plain()
     md_text = build_markdown(body)

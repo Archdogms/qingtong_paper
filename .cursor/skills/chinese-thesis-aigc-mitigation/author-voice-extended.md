@@ -1,9 +1,9 @@
-# 笔调参考：五篇原文全文（仅 `skill参考论文/`）
-本文档与 `skill参考论文/extracted_*.txt` **同源**（由 `extract_skill_docx.py` 从对应 docx 生成）。仅供 Agent 对齐用户既有写作节律与信息密度；**勿整段照抄**到待检测文本。
+# 笔调参考：五篇原文全文（仅 `skill_reference_papers/`）
+本文档与 `skill_reference_papers/extracted_*.txt` **同源**（由 `extract_skill_docx.py` 从对应 docx 生成）。仅供 Agent 对齐用户既有写作节律与信息密度；**勿整段照抄**到待检测文本。
 
 ---
 
-## 全文：`skill参考论文/extracted_期末论文.txt`
+## 全文：`skill_reference_papers/extracted_期末论文.txt`
 
 大脑信号与建筑景观设计的相互作用
 建筑学院景观系，孟帅，2021010910
@@ -24,7 +24,7 @@
 
 ---
 
-## 全文：`skill参考论文/extracted_长文终稿.txt`
+## 全文：`skill_reference_papers/extracted_长文终稿.txt`
 
 民国学生运动实例分析
 孟帅，2021010910，邮箱：mengs21@mails.tsinghua.edu.cn
@@ -66,7 +66,7 @@
 
 ---
 
-## 全文：`skill参考论文/extracted_乡村振兴面临的主要问题_孟帅-2021010910_.txt`
+## 全文：`skill_reference_papers/extracted_乡村振兴面临的主要问题_孟帅-2021010910_.txt`
 
 乡村振兴面临的困境
 一．摘要
@@ -101,7 +101,7 @@
 
 ---
 
-## 全文：`skill参考论文/extracted_意大利台地园及其代表人物作品简析_.txt`
+## 全文：`skill_reference_papers/extracted_意大利台地园及其代表人物作品简析_.txt`
 
 意大利台地园及其代表人物作品简析
 摘要
@@ -143,7 +143,7 @@
 
 ---
 
-## 全文：`skill参考论文/extracted_pre讲稿.txt`
+## 全文：`skill_reference_papers/extracted_pre讲稿.txt`
 
 Chapter13 Progress through Revolutions
 Hello everyone！I’m Meng Shuai from the school of architecture. I’m more than delighted to give a presentation here.

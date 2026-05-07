@@ -14,8 +14,8 @@ import numpy as np
 from rapidocr_onnxruntime import RapidOCR
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PDF = os.path.join(ROOT, "论文要求", "毕业论文（设计）指导规范.pdf")
-OUT = os.path.join(ROOT, "论文", "指导规范_OCR全文.txt")
+PDF = os.path.join(ROOT, "thesis_requirements", "毕业论文（设计）指导规范.pdf")
+OUT = os.path.join(ROOT, "thesis_specs", "指导规范_OCR全文.txt")
 
 
 def page_to_bgr(page: fitz.Page, zoom: float = 3.0) -> np.ndarray:

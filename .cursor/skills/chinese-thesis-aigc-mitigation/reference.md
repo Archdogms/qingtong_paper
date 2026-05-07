@@ -2,7 +2,7 @@
 
 **说明**：此处「查重」指检测平台中的 **AI 疑似率 / AIGC**，不是文献库文字复制比。具体名词、数据、图号须来自用户真实材料；以下只演示**结构与信息密度**。
 
-**用户真实长篇原文**：已集中在 [`author-voice-extended.md`](author-voice-extended.md)（**仅** `skill参考论文/` 五篇 docx 对应全文）。对照时须遵守 [`SKILL.md`](SKILL.md) 中「**书面化、严谨性优先**」：借鉴结构与论证密度，**不**把参考文中的口语、讲稿腔搬进正文；并与 [`author-voice-sample.md`](author-voice-sample.md) 的导航说明一致。
+**用户真实长篇原文**：已集中在 [`author-voice-extended.md`](author-voice-extended.md)（**仅** `skill_reference_papers/` 五篇 docx 对应全文）。对照时须遵守 [`SKILL.md`](SKILL.md) 中「**书面化、严谨性优先**」：借鉴结构与论证密度，**不**把参考文中的口语、讲稿腔搬进正文；并与 [`author-voice-sample.md`](author-voice-sample.md) 的导航说明一致。
 
 ## 1 背景段：从“万能背景”到“可比对对象”
 

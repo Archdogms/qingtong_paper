@@ -32,7 +32,7 @@ disable-model-invocation: true
 
 - **降 AIGC 不能以「口水化」为代价**。输出须是**现代汉语书面语**：术语规范、句子完整、逻辑显式；避免讲稿腔、网络口语、过多感叹与叠词、随意插科打诨式转折。  
 - **严谨性**：判断须有依据（文献、规范、场地条件、图纸或数据）；避免空泛褒贬与「显然」「不言而喻」式省略论证——若用「可见」「据此」等收束，前面须有可指代的具体内容。  
-- **参考 `skill参考论文` 五篇时**：主要借鉴**篇章结构、分点论证、案例与数据的嵌入方式**，**不要**把其中口语连接词、演讲体、中英夹杂 pre 腔**原样搬进**学位论文或设计说明正文；`pre讲稿.docx` 仅作口头报告参考，**论文学语体须更正式**。  
+- **参考 `skill_reference_papers` 五篇时**：主要借鉴**篇章结构、分点论证、案例与数据的嵌入方式**，**不要**把其中口语连接词、演讲体、中英夹杂 pre 腔**原样搬进**学位论文或设计说明正文；`pre讲稿.docx` 仅作口头报告参考，**论文学语体须更正式**。  
 - 在此底线之上，再处理模板句、对称排比、万能段等 **AIGC 高风险形式**。
 
 ### 重要提醒：书面严谨 ≠ 堆砌「标准学术套语」
@@ -83,11 +83,11 @@ disable-model-invocation: true
 
 ## 用笔调样本校准（可选，推荐）
 
-用户笔调的主来源是 **`skill参考论文/`** 内真实 `.docx`，配套纯文本为同目录 **`extracted_*.txt`**（`extract_skill_docx.py` 生成）。
+用户笔调的主来源是 **`skill_reference_papers/`** 内真实 `.docx`，配套纯文本为同目录 **`extracted_*.txt`**（`extract_skill_docx.py` 生成）。
 
 - **快速导航与模仿要点**：先读 [`author-voice-sample.md`](author-voice-sample.md)。  
-- **五篇参考原文全文（推荐精读）**：[`author-voice-extended.md`](author-voice-extended.md)，由 `build_author_voice_extended.py` **仅**合并 `skill参考论文/extracted_*.txt`。  
-- **更新顺序**：改 `skill参考论文` 下 docx 后依次执行  
+- **五篇参考原文全文（推荐精读）**：[`author-voice-extended.md`](author-voice-extended.md)，由 `build_author_voice_extended.py` **仅**合并 `skill_reference_papers/extracted_*.txt`。  
+- **更新顺序**：改 `skill_reference_papers` 下 docx 后依次执行  
   `python .cursor/skills/chinese-thesis-aigc-mitigation/scripts/extract_skill_docx.py`  
   `python .cursor/skills/chinese-thesis-aigc-mitigation/scripts/build_author_voice_extended.py`
 
@@ -117,7 +117,7 @@ disable-model-invocation: true
 
 ## 结构与密度（设计类）
 
-若仓库有 `论文/规范依据_OCR摘录.md`，在合规章节里填入**仅本项目**的观察与对策（前言—概况与分析—构思—方案—总结），比单纯换词更能拉低 AI 疑似度。
+若仓库有 `thesis_specs/规范依据_OCR摘录.md`，在合规章节里填入**仅本项目**的观察与对策（前言—概况与分析—构思—方案—总结），比单纯换词更能拉低 AI 疑似度。
 
 ## 交付格式
 

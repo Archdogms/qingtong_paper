@@ -1,4 +1,4 @@
-"""Extract plain text from docx in skill参考论文 for voice samples."""
+"""Extract plain text from docx in skill_reference_papers for voice samples."""
 import zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -21,7 +21,7 @@ def docx_plain(path: Path) -> str:
 def main() -> None:
     # .../qingtong_paper/.cursor/skills/.../scripts/this.py -> repo root = parents[4]
     root = Path(__file__).resolve().parents[4]
-    folder = root / "skill参考论文"
+    folder = root / "skill_reference_papers"
     if not folder.is_dir():
         raise SystemExit(f"Missing folder: {folder}")
     # 纯文本与 docx 同目录，便于对照与手工裁剪进 author-voice-sample.md

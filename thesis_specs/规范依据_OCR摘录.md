@@ -53,4 +53,4 @@
 ---
 
 **OCR 脚本**：`ocr_requirements.py`（依赖：`rapidocr-onnxruntime`、`pymupdf`、`opencv-python`、`numpy`）。若需重跑：在项目根目录执行  
-`python 论文/ocr_requirements.py`
+`python thesis_specs/ocr_requirements.py`
